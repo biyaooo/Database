@@ -1,6 +1,7 @@
 
 public class DVD extends Item{
 
+// This is a DVD CLASS
 	private String director;
 
 	public DVD(String title, String director, int playingTime, String comment) {
