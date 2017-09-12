@@ -5,6 +5,7 @@ public class MP3 extends Item {
 	private String album; //专辑
 
 	public MP3(String album,String title, int playingTime, String comment , String lyric, String singer) {
+		//init 
 		super(title, playingTime, false, comment);
 		this.setLyric(lyric);
 		this.setSinger(singer);
